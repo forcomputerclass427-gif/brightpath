@@ -11,7 +11,7 @@ const Navbar = () => {
      
           {/* Logo */}
           <img
-            src="./src/assets/1..jpeg"
+            src="./src/assets/6.jpg"
             alt="Natural Disaster Awareness Logo"
             className="logo"
           />
