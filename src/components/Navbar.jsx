@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from "../assets/6.jpg"
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
      
           {/* Logo */}
           <img
-            src="./src/assets/6.jpg"
+            src={logo}
             alt="Natural Disaster Awareness Logo"
             className="logo"
           />

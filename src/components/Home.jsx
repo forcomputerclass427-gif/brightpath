@@ -1,6 +1,8 @@
 import React from "react";
-
-
+import naturalLogo from "../assets/6.jpg"
+import earthQuake from "../assets/2.jpg"
+import floodImage from "../assets/3.jpg"
+import landslideImage from "../assets/1.jpg"
 const Home = () => {
   return (
     <div className="home">
@@ -11,7 +13,7 @@ const Home = () => {
 
           {/* Logo */}
           <img
-            src="./src/assets/6.jpg"
+            src={naturalLogo}
             alt="Natural Disaster Awareness Logo"
             className="logo"
           />
@@ -52,7 +54,7 @@ const Home = () => {
         <div className="cards">
           <div className="card">
              <img
-            src="./src/assets/2.jpg"
+            src={earthQuake}
             alt="Earthquake"
             className="image"
           />
@@ -64,7 +66,7 @@ const Home = () => {
 
           <div className="card">
             <img
-            src="./src/assets/3.jpg"
+            src={floodImage}
             alt="Flood"
             className="image"
             />
@@ -76,7 +78,7 @@ const Home = () => {
 
           <div className="card">
             <img
-            src="./src/assets/1.jpg"
+            src={landslideImage}
             alt="Landslide"
             className="image"
             />
